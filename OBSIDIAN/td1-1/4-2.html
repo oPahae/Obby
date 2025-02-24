@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset >
+            <legend>Formulaire d'inscription</legend>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td><input type="text" placeholder="saisir votre nom" ></td>
+                </tr>
+                <tr>
+                    <td>Prenom</td>
+                    <td><input type="text" placeholder="saisir votre prenom" ></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" placeholder="saisir votre email" ></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td><input type="radio" name="sexe" checked >Masculin<input type="radio" name="sexe" >Féminin</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" placeholder="saisir votre email" ></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="file" accept="image/*" ></td>
+                </tr>
+                <tr>
+                    <td>Pays</td>
+                    <td>
+                        <select>
+                            <option value="fr">France</option>
+                            <option value="ma">Maroc</option>
+                            <option value="us">Etats-units</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Langages préférés</td>
+                    <td>
+                        <select multiple>
+                            <option value="java">Java</option>
+                            <option value="c">C</option>
+                            <option value="cpp">C++</option>
+                            <option value="php">PHP</option>
+                        </select>
+                        <span>(Pour faire plsr choix maintennaire CTRL)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domaines d'activité</td>
+                    <td>
+                        <input type="checkbox"> Informatique
+                        <input type="checkbox"> Gestion
+                        <input type="checkbox"> Pédagogie
+                    </td>
+                </tr>
+            </table>
+
+            <button>Envoyer</button>
+            <button>Annuler</button>
+        </fieldset>
+    </form>
+</body>
+</html>
